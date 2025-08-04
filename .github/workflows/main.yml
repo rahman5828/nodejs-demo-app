@@ -2,7 +2,7 @@ name: CI/CD Pipeline - Node.js + Docker
 
 on:
   push:
-    branches: [ "main", "master" ]  # Add "master" if you're using master branch
+    branches: [ "main", "master" ]
 
 jobs:
   build-and-deploy:
